@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class DrawMap : Singleton<DrawMap> {
 
-    public float sizeOfTile = 1f;
+    public float sizeOfTile = 2f;
    
     private Map map = null;
     private Vector2 size = new Vector2(50, 50);
@@ -45,7 +45,7 @@ public class DrawMap : Singleton<DrawMap> {
         
                 if (map[i, j] == Cell.Block){
         
-                    GameObject plane = Instantiate(floors[1], Vector3.zero, Quaternion.identity) as GameObject;
+                    GameObject plane = Instantiate(floors[0], Vector3.zero, Quaternion.identity) as GameObject;
                     plane.transform.position = new Vector3(i * sizeOfTile, j * sizeOfTile, 0);
                     plane.transform.localScale = new Vector3(sizeOfTile / 2f, sizeOfTile / 2f, 1f);
                     plane.transform.parent = gameObject.transform;
