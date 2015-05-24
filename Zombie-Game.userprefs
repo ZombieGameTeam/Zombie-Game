@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerStatsContainer.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Core\Singleton.cs" Line="42" Column="6" />
+      <File FileName="Assets\Scripts\AIManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerStatsContainer.cs" Line="6" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
